@@ -1,0 +1,111 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Section Styling */
+.header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.header button {
+    padding: 15px 25px;
+    font-size: 1em;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Section Title Styling */
+.section-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 50px 0 20px;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Individual Card Styling */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-direction: row; /* Ensure that the image is on the left and text is on the right */
+}
+
+.card-image {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.card-image-two{
+    flex-direction: row-reverse;
+}
+
+.card-image img {
+    width: 150px;
+    height: auto;
+}
+
+.card-text {
+    flex: 1;
+}
+
+.card-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.card-text p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.card-text button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
