@@ -52,10 +52,9 @@ body {
 
 /* Card Container */
 .card-container {
-    display: flex;
+  display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
     max-width: 1200px;
     margin: auto;
 }
@@ -69,7 +68,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    flex-direction: row; /* Ensure that the image is on the left and text is on the right */
+    flex-direction: row; 
 }
 
 .card-image {
@@ -105,23 +104,61 @@ body {
     margin-bottom: 15px;
 }
 .card-text-btn-one{
-    padding: 10px 15px;
-    font-size: 1em;
-    background-color: #000;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+   /* Frame 7 */
+position: static;
+width: 149px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
 
 }
+.card-text-btn-two{
+    position: static;
+width: 149px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
 .card-text-btn-three{
-    padding: 10px 15px;
-    font-size: 1em;
-    background-color: #000;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    position: static;
+width: 149px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
 }
 .card-text h3 {
     font-size: 1.5em;
@@ -136,11 +173,23 @@ body {
 .card-text button {
     padding: 10px 15px;
     font-size: 1em;
-    background-color: #000;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    position: static;
+width: 149px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+    
 }
 .lower-title{
     text-align: center;
@@ -167,6 +216,85 @@ flex-grow: 0;
 margin: 10px 100px;
 border-radius: 20px;
 }
+/* Targets Section Styling */
+.targets-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.targets-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.targets-description {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #777777;
+}
+
+.targets-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.target-card {
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 400px;
+    text-align: center;
+    flex: 1;
+}
+.target-card-one{
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.target-card-two{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.target-card-three{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.target-icon {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.target-name {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.target-description {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: rgba(13, 19, 33);
+}
+.target-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    border-bottom: 2px solid transparent; 
+
+
+}
+
+.target-link:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
 /* Support Section Styling */
 .support-section {
     background-color: #000000; /* Background color similar to the image */
@@ -223,4 +351,33 @@ border-radius: 20px;
 
 .support-button:hover {
     background-color: #e6e6e6;
+}
+/* Footer Section Styling */
+.footer {
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-credit {
+    font-size: 1em;
+    color: #000000;
+    margin: 0;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icons a img {
+    width: 24px;
+    height: 24px;
 }
